@@ -26,3 +26,5 @@ Sometime you might get error "Authentication plugin 'chaching-sha2-password' can
 ALTER USER 'yourusername'@'localhost' IDENTIFIED WITH mysql_native_password BY 'youpassword';
 
 The program should run on http://localhost:5000/home 
+
+You can use command select * from user; to check the contents of the database.
